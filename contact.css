@@ -1,0 +1,102 @@
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 22px;
+    margin-left: 20px;
+}
+div{
+    justify-content: space-around;
+}
+.c-item{
+    height: 600px;
+    }
+    .c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 0;
+        margin-top: 200px;
+    }
+    .h1{
+        font-size: 50px;
+    }
+    .p{
+        font-size: 22px;
+    }
+    @media (min-width: 400px){
+        .d-md-block {
+            display: block !important;
+        }
+        }
+        .title{
+            text-align: center;
+        }
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.content{
+    width: 60%;
+    padding: 45px;
+    border-radius: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.row .kk{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.col-md-7{
+    padding: 20px;
+}
+.row .col-md{
+    background-color: #1089ff;
+    padding: 20px;
+    color: white;
+}
+.form-control{
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none! important;
+    border: 1px solid rgba(0,0,0,0.1);
+
+}
+.bi{
+    font-size: 20px;
+
+}
+.d-flex p{
+    font-size: 18px;
+    padding-left: 18px;
+    font-family: verdana , Geneva, Tahoma, sans-serif  ;
+}
+ @media only screen and(max-width:600px){
+    .container{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+
+    }
+ }
+ .container{
+    margin-top: 100px;
+ }
+footer{
+    margin-top: 150px;
+}
+footer .col-lg-5{
+    color: #212529;
+}

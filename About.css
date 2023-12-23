@@ -1,0 +1,206 @@
+
+.navbar-brand {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 22px;
+    margin-left: 20px;
+}
+div{
+    justify-content: space-around;
+}
+.c-item{
+    height: 600px;
+    }
+    .c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 0;
+        margin-top: 200px;
+    }
+    .h1{
+        font-size: 50px;
+    }
+    .p{
+        font-size: 22px;
+    }
+    @media (min-width: 400px){
+        .d-md-block {
+            display: block !important;
+        }
+        }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+
+  }
+  .hero{
+    background-color: #f8f8f8;
+    overflow: hidden;
+  }
+  .heading h1{
+    color: #ff6347;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 35px;
+
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+  }
+  .hero-content{
+    flex:1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+  }
+  .hero-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+
+  }
+  .hero-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+
+  }
+  .hero-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+  }
+  @media screen and (max-width: 768px){
+    .heading h1{
+        font-size: 45px;
+        margin-top: 30px;
+
+    }.hero{
+        margin: 0px;
+
+    }.container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+ 
+    }.hero-content{
+        width: 100%;
+        margin: 35px 0px;
+
+    }.hero-content h2{
+        font-size: 30px;
+
+    }.hero-content p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: justify;
+        
+    }.hero-image{
+        width: 100%;
+         
+    }.heading h1{
+        font-size: 35px;
+
+    }
+       
+  }
+  @keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+
+    } 100%{
+        opacity: 1;
+        transform: translateY(0px);
+        
+    }
+  }
+  @keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+
+    } 100%{
+        opacity: 1;
+        transform: translateX(0px);
+        
+    }
+  }
+ h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+}
+.card {
+    flex-direction: row;
+    max-width: 30em;
+    border: 0;
+    background-color: #737070;
+    color: #fff;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+  }
+  .card img {
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .text-section {
+    max-width: 60%;
+  }
+  .cta-section {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .cta-section .btn {
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    color: #696969;
+  }
+  .card-text {
+    letter-spacing: 0.1em;
+  }
+  .container{
+    justify-content: space-around;
+  }
+  .text-section p{
+    font-size: 20px;
+  }
+  .text-section h5{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  body{
+    text-align: justify;
+  }
